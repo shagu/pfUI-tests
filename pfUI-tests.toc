@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: |cff33ffccpf|cffffffffUI |cffaaaaaa[Tests]
+## Author: Shagu
+## Notes: A pfUI test-suite
+## Version: 1.0
+## Dependencies: pfUI
+
+# main
+pfUI-tests.lua
