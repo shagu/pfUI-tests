@@ -58,4 +58,11 @@ modules["cmatch"] = function()
 
     print(" ")
   end
+
+  -- probe execution time
+  local time = GetTime()
+  for i=1,1000000 do
+    local first, second, third, fourth, fifth = pfUI.api.cmatch(tests[8].str, tests[8].pat)
+  end
+  print("1000000 runs took: " .. GetTime() - time .. " seconds.")
 end
